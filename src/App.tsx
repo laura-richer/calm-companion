@@ -12,7 +12,7 @@ const App = () => {
     <Container>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/get-soundtrack" element={<Main />} />
+        <Route path="/welcome" element={<Main />} />
       </Routes>
     </Container>
   )
