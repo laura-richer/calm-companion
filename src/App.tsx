@@ -1,10 +1,20 @@
-import './App.css'
+import { Routes, Route } from 'react-router-dom';
+
+import Landing from './pages/Landing';
+import Main from './pages/Main';
+
+import Container from './wrappers/Container';
+
+import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <p>Hello world</p>
-    </div>
+    <Container>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/get-soundtrack" element={<Main />} />
+      </Routes>
+    </Container>
   )
 }
 
