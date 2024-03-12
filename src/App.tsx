@@ -15,12 +15,12 @@ const App = () => {
   return (
     <Container>
       <Routes>
-        <Route path="/" element={ <Landing/> } />
-        <Route path="/welcome" element={ <Welcome/> } />
-        <Route path="/quick-help" element={ <QuickHelp/> } />
-        <Route path="/anxiety-resources" element={ <AnxietyResources/> } />
-        <Route path="/cbt-tools" element={ <CbtTools/> } />
-        <Route path="/helpful-contacts" element={ <HelpfulContacts/> } />
+        <Route element={ <Landing/> } path="/" />
+        <Route element={ <Welcome/> } path="/welcome" />
+        <Route element={ <QuickHelp/> } path="/quick-help" />
+        <Route element={ <AnxietyResources/> } path="/anxiety-resources" />
+        <Route element={ <CbtTools/> } path="/cbt-tools" />
+        <Route element={ <HelpfulContacts/> } path="/helpful-contacts" />
       </Routes>
     </Container>
   )
