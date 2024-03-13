@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route } from 'react-router-dom';
 
 import Landing from './pages/Landing';
 import Welcome from './pages/Welcome';
@@ -15,15 +15,15 @@ const App = () => {
   return (
     <Container>
       <Routes>
-        <Route element={ <Landing/> } path="/" />
-        <Route element={ <Welcome/> } path="/welcome" />
-        <Route element={ <QuickHelp/> } path="/quick-help" />
-        <Route element={ <AnxietyResources/> } path="/anxiety-resources" />
-        <Route element={ <CbtTools/> } path="/cbt-tools" />
-        <Route element={ <HelpfulContacts/> } path="/helpful-contacts" />
+        <Route element={<Landing />} path="/" />
+        <Route element={<Welcome />} path="/welcome" />
+        <Route element={<QuickHelp />} path="/quick-help" />
+        <Route element={<AnxietyResources />} path="/anxiety-resources" />
+        <Route element={<CbtTools />} path="/cbt-tools" />
+        <Route element={<HelpfulContacts />} path="/helpful-contacts" />
       </Routes>
     </Container>
-  )
-}
+  );
+};
 
 export default App;

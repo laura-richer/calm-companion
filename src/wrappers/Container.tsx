@@ -5,11 +5,7 @@ interface ContainerProps {
 }
 
 const Container = ({ children }: ContainerProps) => {
-    return (
-        <div>
-            { children }
-        </div>
-    )
-}
+  return <div>{children}</div>;
+};
 
 export default Container;

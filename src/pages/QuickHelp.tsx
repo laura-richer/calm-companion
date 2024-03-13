@@ -1,7 +1,5 @@
 const QuickHelp = () => {
-    return (
-      <p>QuickHelp</p>
-    )
-  }
-  
+  return <p>QuickHelp</p>;
+};
+
 export default QuickHelp;

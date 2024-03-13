@@ -5,7 +5,7 @@
   --font-lg: 3rem;
   --font-xl: 6rem;
 
-  --color-white: #ffffff;
+  --color-white: #fff;
   --color-one: #e1f1ce;
   --color-two: #b4d4c0;
   --color-three: #8bc3b9;
@@ -57,7 +57,6 @@ body {
   flex-grow: 1;
   height: 100%;
   margin: 0;
-
   font-family: Poppins, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

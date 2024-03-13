@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "overrides": [
+    {
+      "files": ["*.jsx", "*.tsx"],
+      "customSyntax": "postcss-styled-syntax"
+    }
+  ],
+  "customSyntax": "",
+  "unit-allowed-list": ["%"]
+}
