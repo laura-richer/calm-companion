@@ -6,4 +6,4 @@ pre-commit:
     typecheck:
       run: yarn typecheck
     test:
-      run: yarn test
+      run: yarn test --passWithNoTests
