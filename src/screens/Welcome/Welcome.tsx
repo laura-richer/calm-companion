@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Text, View, StyleSheet } from 'react-native';
+import { WelcomeScreenNavigationProp } from './types';
 
 const styles = StyleSheet.create({
   main: {
@@ -14,7 +15,11 @@ const styles = StyleSheet.create({
   },
 });
 
-export const Welcome = ({ navigation }) => {
+interface WelcomeProps {
+  navigation: WelcomeScreenNavigationProp;
+}
+
+export const Welcome = ({ navigation }: WelcomeProps) => {
   return (
     <View style={styles.main}>
       <Text>Welcome</Text>

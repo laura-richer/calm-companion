@@ -2,8 +2,9 @@ import { QuickHelp } from '~screens/QuickHelp.tsx';
 import { AnxietyResources } from '~screens/AnxietyResources.tsx';
 import { CbtTools } from '~screens/CbtTools.tsx';
 import { HelpfulContacts } from '~screens/HelpfulContacts.tsx';
+import { type NavigationItemType } from '~components/Navigation/types.ts';
 
-export default [
+const navigationItems: NavigationItemType[] = [
   {
     id: 'QuickHelp',
     component: QuickHelp,
@@ -29,3 +30,5 @@ export default [
     icon: 'Tree',
   },
 ];
+
+export default navigationItems;
