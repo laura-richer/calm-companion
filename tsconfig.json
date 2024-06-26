@@ -3,8 +3,8 @@
   "compilerOptions": {
     "paths": {
       "~assets/*": ["./src/assets/*"],
-      "~atoms/*": ["./src/atoms/*"],
-      "~molecules/*": ["./src/molecules/*"],
+      "~components/*": ["./src/components/*"],
+      "~data/*": ["./src/data/*"],
       "~screens/*": ["./src/screens/*"],
       "~store/*": ["./src/store/*"],
       "~utils/*": ["./src/utils/*"]

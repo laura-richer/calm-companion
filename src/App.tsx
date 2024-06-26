@@ -1,20 +1,14 @@
 import React from 'react';
-import { Welcome } from './screens/Welcome/Welcome.tsx';
-import { Home } from './screens/Home/Home.tsx';
+import { Provider } from 'react-redux';
+import { NavigationContainerWrapper } from '~components/Navigation/NavigationContainer';
 
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-const Stack = createNativeStackNavigator();
+import { store } from '~store/index';
 
 function App(): React.JSX.Element {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Welcome">
-        <Stack.Screen name="Welcome" component={Welcome} />
-        <Stack.Screen name="Home" component={Home} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainerWrapper />
+    </Provider>
   );
 }
 

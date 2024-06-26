@@ -7,8 +7,8 @@ module.exports = {
         root: ['./src/'],
         alias: {
           '~assets': './src/assets',
-          '~atoms': './src/components/atoms',
-          '~molecules': './src/components/molecules',
+          '~components': './src/components',
+          '~data': './src/data',
           '~screens': './src/screens',
           '~store': './src/store',
           '~utils': './src/utils',
