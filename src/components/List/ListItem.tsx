@@ -8,7 +8,7 @@ interface ListItemProps {
   item: ListItemType;
 }
 
-export const ListItem = ({ item }: ListItemProps) => {
+const ListItem = ({ item }: ListItemProps) => {
   const dispatch = useDispatch();
 
   return (
@@ -18,3 +18,5 @@ export const ListItem = ({ item }: ListItemProps) => {
     </View>
   );
 };
+
+export default ListItem;

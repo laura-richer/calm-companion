@@ -9,8 +9,10 @@ interface NavigationItemProps {
   item: NavigationItemType;
 }
 
-export const NavigationItem = ({ item }: NavigationItemProps) => {
+const NavigationItem = ({ item }: NavigationItemProps) => {
   const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
 
   return <Button title={item.title} onPress={() => navigation.navigate(item.id)} />;
 };
+
+export default NavigationItem;

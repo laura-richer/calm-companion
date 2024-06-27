@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import { ListItem } from './ListItem';
+import ListItem from './ListItem';
 import { type ListItemType } from '~components/List/types';
 
 interface ListContainerProps {
   listItems: ListItemType[];
 }
 
-export const ListContainer = ({ listItems }: ListContainerProps) => {
+const ListContainer = ({ listItems }: ListContainerProps) => {
   return (
     <View>
       <Text>Navigation items</Text>
@@ -17,3 +17,5 @@ export const ListContainer = ({ listItems }: ListContainerProps) => {
     </View>
   );
 };
+
+export default ListContainer;

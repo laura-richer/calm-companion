@@ -3,10 +3,12 @@ import { View } from 'react-native';
 
 import { NavigationList } from '~components/Navigation/NavigationList';
 
-export const Home = () => {
+const Home = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <NavigationList />
     </View>
   );
 };
+
+export default Home;

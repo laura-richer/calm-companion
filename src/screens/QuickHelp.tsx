@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 import { useAppSelector } from '~store/hooks';
 import { ListContainer } from '~components/List/ListContainer';
 
-export const QuickHelp = () => {
+const QuickHelp = () => {
   const quickHelpItems = useAppSelector(state => state.quickHelp.items);
 
   return (
@@ -13,3 +13,5 @@ export const QuickHelp = () => {
     </View>
   );
 };
+
+export default QuickHelp;

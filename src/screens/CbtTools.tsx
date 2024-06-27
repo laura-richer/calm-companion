@@ -1,10 +1,12 @@
 import React from 'react';
 import { Text, View } from 'react-native';
 
-export const CbtTools = () => {
+const CbtTools = () => {
   return (
     <View>
       <Text>CBT tools</Text>
     </View>
   );
 };
+
+export default CbtTools;

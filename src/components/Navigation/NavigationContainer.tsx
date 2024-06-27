@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { Welcome } from '~screens/Welcome/Welcome.tsx';
-import { Home } from '~screens/Home.tsx';
+import Welcome from '~screens/Welcome/Welcome.tsx';
+import Home from '~screens/Home.tsx';
 import navigationItems from '~data/navigation';
 
-export const NavigationContainerWrapper = () => {
-  const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
+export const NavigationContainerWrapper = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Welcome">
