@@ -3130,7 +3130,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react-native@npm:^12.5.0":
+"@testing-library/react-native@npm:^12.5.1":
   version: 12.5.1
   resolution: "@testing-library/react-native@npm:12.5.1"
   dependencies:
@@ -3146,6 +3146,13 @@ __metadata:
     jest:
       optional: true
   checksum: 5fa582184ae99244d0175f72d7804659393d6952510b7ff2a85c43ea0dd043bb1c8ab79fe52d73ceca3c2dddbc0df7c3b1fb2915a2aff1ac98f4423b202c6146
+  languageName: node
+  linkType: hard
+
+"@tsconfig/react-native@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "@tsconfig/react-native@npm:3.0.5"
+  checksum: e59df75d2be36073ed08f619ef9819037d49b484129e6d920f40847e041a8789d232a16a809edebe70a8ea6927da0560eff2b87848f1d6d35d8ba65fb5784910
   languageName: node
   linkType: hard
 
@@ -3284,7 +3291,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-test-renderer@npm:^18.0.0":
+"@types/react-test-renderer@npm:^18.3.0":
   version: 18.3.0
   resolution: "@types/react-test-renderer@npm:18.3.0"
   dependencies:
@@ -3293,7 +3300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.2.6":
+"@types/react@npm:*, @types/react@npm:^18.3.3":
   version: 18.3.3
   resolution: "@types/react@npm:18.3.3"
   dependencies:
@@ -3941,7 +3948,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:^29.6.3, babel-jest@npm:^29.7.0":
+"babel-jest@npm:^29.7.0":
   version: 29.7.0
   resolution: "babel-jest@npm:29.7.0"
   dependencies:
@@ -4257,12 +4264,13 @@ __metadata:
     "@react-navigation/native-stack": ^6.9.26
     "@reduxjs/toolkit": ^2.2.5
     "@testing-library/jest-native": ^5.4.3
-    "@testing-library/react-native": ^12.5.0
+    "@testing-library/react-native": ^12.5.1
+    "@tsconfig/react-native": ^3.0.5
     "@types/jest": ^29.5.12
-    "@types/react": ^18.2.6
+    "@types/react": ^18.3.3
     "@types/react-native": ^0.73.0
-    "@types/react-test-renderer": ^18.0.0
-    babel-jest: ^29.6.3
+    "@types/react-test-renderer": ^18.3.0
+    babel-jest: ^29.7.0
     babel-plugin-module-resolver: ^5.0.2
     eslint: 8.x
     eslint-config-prettier: ^9.1.0

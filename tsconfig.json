@@ -1,6 +1,7 @@
 {
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
+    "types": ["@testing-library/jest-native", "jest"],
     "paths": {
       "~assets/*": ["./src/assets/*"],
       "~components/*": ["./src/components/*"],

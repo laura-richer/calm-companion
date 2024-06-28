@@ -33,12 +33,13 @@
     "@react-native/metro-config": "0.74.83",
     "@react-native/typescript-config": "0.74.83",
     "@testing-library/jest-native": "^5.4.3",
-    "@testing-library/react-native": "^12.5.0",
+    "@testing-library/react-native": "^12.5.1",
+    "@tsconfig/react-native": "^3.0.5",
     "@types/jest": "^29.5.12",
-    "@types/react": "^18.2.6",
+    "@types/react": "^18.3.3",
     "@types/react-native": "^0.73.0",
-    "@types/react-test-renderer": "^18.0.0",
-    "babel-jest": "^29.6.3",
+    "@types/react-test-renderer": "^18.3.0",
+    "babel-jest": "^29.7.0",
     "babel-plugin-module-resolver": "^5.0.2",
     "eslint": "8.x",
     "eslint-config-prettier": "^9.1.0",
@@ -56,6 +57,9 @@
     "preset": "react-native",
     "setupFilesAfterEnv": [
       "@testing-library/jest-native/extend-expect"
+    ],
+    "setupFiles": [
+      "<rootDir>/test-setup.js"
     ]
   }
 }

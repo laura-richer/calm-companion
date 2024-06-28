@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Text, View, StyleSheet } from 'react-native';
-import { useNavigation, ParamListBase } from '@react-navigation/native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { WelcomeScreenNavigationProp } from './types';
 
 const styles = StyleSheet.create({
   main: {
@@ -15,9 +14,12 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
 });
-const Welcome = () => {
-  const navigation = useNavigation<NativeStackNavigationProp<ParamListBase>>();
 
+interface WelcomeProps {
+  navigation: WelcomeScreenNavigationProp;
+}
+
+const Welcome: React.FC<WelcomeProps> = ({ navigation }) => {
   return (
     <View style={styles.main}>
       <Text>Welcome</Text>
