@@ -4,10 +4,12 @@
     "types": ["@testing-library/jest-native", "jest"],
     "paths": {
       "~assets/*": ["./src/assets/*"],
+      "~common/*": ["./src/common/*"],
       "~components/*": ["./src/components/*"],
       "~data/*": ["./src/data/*"],
       "~screens/*": ["./src/screens/*"],
       "~store/*": ["./src/store/*"],
+      "~styles/*": ["./src/styles/*"],
       "~utils/*": ["./src/utils/*"]
     }
   }

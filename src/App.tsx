@@ -1,8 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
+import store from '~store/index';
 import { NavigationContainerWrapper } from '~components/Navigation/NavigationContainer';
-
-import { store } from '~store/index';
 
 function App(): React.JSX.Element {
   return (

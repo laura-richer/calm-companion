@@ -1,30 +1,38 @@
 import React from 'react';
-import { Button, Text, View, StyleSheet } from 'react-native';
-import { WelcomeScreenNavigationProp } from './types';
+import { Pressable, Text, Image, View } from 'react-native';
+import GradientDark from '~components/Gradient/GradientDark';
+import { WelcomeProps } from './types';
+import styles from './styles';
+import { buttonStyles, dropShadowStyles } from '~styles/global';
 
-const styles = StyleSheet.create({
-  main: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    fontFamily: 'Poppins-Regular',
-  },
-  customText: {
-    color: 'black',
-    fontSize: 30,
-  },
-});
-
-interface WelcomeProps {
-  navigation: WelcomeScreenNavigationProp;
-}
-
-const Welcome: React.FC<WelcomeProps> = ({ navigation }) => {
+const Welcome = ({ navigation }: WelcomeProps) => {
   return (
-    <View style={styles.main}>
-      <Text>Welcome</Text>
-      <Button title="Get started" onPress={() => navigation.navigate('Home')} />
-    </View>
+    <GradientDark style={styles.wrapper}>
+      <View style={styles.header}>
+        <Text style={styles.title}>Calm Companion</Text>
+        <Text style={styles.subtitle}>Supporting your path to peace.</Text>
+      </View>
+
+      <Image
+        source={require('~assets/images/calm-companion.png')}
+        style={styles.image}
+        resizeMode="contain"
+      />
+
+      <View style={styles.footer}>
+        <Text style={styles.bodyText}>
+          Your handy reference of anxiety relief techniques and CBT tools to help you when your
+          struggling.
+        </Text>
+
+        <Pressable
+          onPress={() => navigation.navigate('Home')}
+          style={[buttonStyles.primary, buttonStyles.fullWidth, dropShadowStyles.default]}
+        >
+          <Text style={buttonStyles.primaryText}>Get Started</Text>
+        </Pressable>
+      </View>
+    </GradientDark>
   );
 };
 
