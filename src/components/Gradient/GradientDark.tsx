@@ -8,7 +8,7 @@ const GradientDark = ({ children, style }: GradientProps) => {
     <LinearGradient
       colors={[colors.TWO, colors.THREE]}
       useAngle={true}
-      angle={145}
+      angle={170}
       angleCenter={{ x: 0.75, y: 0.75 }}
       style={style}
     >

@@ -1,12 +1,13 @@
 import React from 'react';
 import { View } from 'react-native';
-
-import { NavigationList } from '~components/Navigation/NavigationList';
+import ScreenHeader from '~components/ScreenHeader';
+import CardNavigationList from '~components/CardNavigation/CardNavigationList';
 
 const Home = () => {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <NavigationList />
+    <View>
+      <ScreenHeader title={'Home'} icon={'~assets/images/calm-companion.png'} />
+      <CardNavigationList />
     </View>
   );
 };

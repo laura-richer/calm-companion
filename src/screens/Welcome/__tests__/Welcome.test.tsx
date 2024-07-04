@@ -1,35 +1,22 @@
-import '@testing-library/jest-native/extend-expect';
 import React from 'react';
-import { screen, render, fireEvent } from '@testing-library/react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import { screen, fireEvent } from '@testing-library/react-native';
+import { renderWithProviders } from '~utils/test-utils';
 import Welcome from '../Welcome';
-
-import { ParamListBase } from '@react-navigation/native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-
-type MockStackNavigationProp<
-  ParamList extends ParamListBase = any,
-  RouteName extends keyof ParamList = string,
-> = Record<keyof NativeStackNavigationProp<ParamList, RouteName>, ReturnType<typeof jest.fn>>;
-
-const mockNavigation: MockStackNavigationProp = {
-  navigate: jest.fn(),
-};
 
 const mockNavigate = jest.fn();
 
+const _renderDefault = () => {
+  return renderWithProviders(<Welcome navigation={{ navigate: mockNavigate } as any} />);
+};
+
 describe('Welcome screen', () => {
-  test('renders the get started button and navigates to correct page on press', () => {
-    render(
-      <NavigationContainer>
-        <Welcome navigation={mockNavigation} />
-      </NavigationContainer>
-    );
+  test('renders the get started button and navigates to home page on click', () => {
+    _renderDefault();
 
-    const getStartedButton = screen.getByText('Get started');
+    const buttonTitle = screen.getByText('Get Started');
 
-    expect(getStartedButton).toBeOnTheScreen();
-    fireEvent.press(getStartedButton);
+    expect(buttonTitle).toBeOnTheScreen();
+    fireEvent.press(buttonTitle);
     expect(mockNavigate).toHaveBeenCalledWith('Home');
   });
 });

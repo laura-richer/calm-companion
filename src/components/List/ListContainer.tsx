@@ -5,14 +5,14 @@ import { type ListItemType } from '~components/List/types';
 
 interface ListContainerProps {
   listItems: ListItemType[];
+  handleListItemClick: any;
 }
 
-const ListContainer = ({ listItems }: ListContainerProps) => {
+const ListContainer = ({ listItems, handleListItemClick }: ListContainerProps) => {
   return (
     <View>
-      <Text>Navigation items</Text>
       {listItems.map((listItem: ListItemType) => (
-        <ListItem key={listItem.id} item={listItem} />
+        <ListItem key={listItem.id} item={listItem} handleListItemClick={handleListItemClick} />
       ))}
     </View>
   );

@@ -1,8 +1,6 @@
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '~components/Navigation/types';
 
-export type WelcomeScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Welcome'>;
-
 export type WelcomeProps = {
-  navigation: WelcomeScreenNavigationProp;
+  navigation: StackNavigationProp<RootStackParamList, 'Welcome'>;
 };

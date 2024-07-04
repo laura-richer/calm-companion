@@ -19,8 +19,6 @@ export default StyleSheet.create({
     width: '100%',
   },
   title: {
-    fontFamily: fontFamily.BOLD,
-    fontSize: fontSize.XL,
     color: colors.WHITE,
   },
   subtitle: {

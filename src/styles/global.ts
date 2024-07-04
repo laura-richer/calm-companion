@@ -1,4 +1,5 @@
-import buttonStyles from './button';
-import dropShadowStyles from './drop-shadow';
+import buttonStyles from './elements/button';
+import dropShadowStyles from './elements/drop-shadow';
+import typographyStyles from './elements/typography';
 
-export { buttonStyles, dropShadowStyles };
+export { buttonStyles, dropShadowStyles, typographyStyles };
