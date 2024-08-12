@@ -12,7 +12,7 @@ export default StyleSheet.create({
     borderRadius: 50,
   },
   primaryText: {
-    fontFamily: fontFamily.BOLD,
+    fontFamily: fontFamily.SEMIBOLD,
     fontSize: fontSize.MD,
     padding: spacer.XS,
   },

@@ -1,15 +1,15 @@
-export type RootStackParamList = {
-  Welcome: undefined;
-  Home: undefined;
-  QuickHelp: undefined;
-  AnxietyResources: undefined;
-  CbtTools: undefined;
-  HelpfulContacts: undefined;
+import { ImageSourcePropType } from 'react-native';
+import { NavigationItemType } from '~types/navigation';
+
+export type TabNavigationIconProps = {
+  icon: ImageSourcePropType;
 };
 
-export type NavigationItemType = {
-  id: string;
-  component: React.ComponentType;
-  title: string;
-  icon: string;
+export type TabNavigationLabelProps = {
+  label: string;
+};
+
+export type CardItemProps = {
+  item: NavigationItemType;
+  handleChangeScreen: (id: string) => void;
 };

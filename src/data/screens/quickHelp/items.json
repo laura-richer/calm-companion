@@ -1,0 +1,155 @@
+[
+  {
+    "id": 0,
+    "title": "5x5 Breathing",
+    "content": [
+      {
+        "id": 0,
+        "component": "Paragraph",
+        "text": "5x5 breathing is a simple meditation technique to reduce stress and anxiety as well as improve your focus. It involves inhaling, holding, and exhaling each for five seconds. This practice can be done anywhere at any time, making it the perfect tool to help alleviate your anxeity on the fly."
+      },
+      {
+        "id": 1,
+        "component": "Heading",
+        "text": "To practice 5x5 breathing, follow these steps:"
+      },
+      {
+        "id": 2,
+        "component": "List",
+        "items": [
+          "Find a comfortable place to sit, stand or lay down.",
+          "Close your eyes",
+          "Take a deep breath in through your nose for a count of five.",
+          "Hold your breath for a count of five.",
+          "Exhale through your mouth for a count of five.",
+          "Repeat the previous 3 steps for as long as you wish. (You can taylor the time to your needs and current situation)"
+        ]
+      },
+      {
+        "id": 3,
+        "component": "Heading",
+        "text": "Useful tips"
+      },
+      {
+        "id": 4,
+        "component": "List",
+        "items": [
+          "If possible, eliminate distractions by finding a quiet place to practice.",
+          "Try starting with a minute of 5x5 breathing and gradually increase the time as you become more comfortable with the practice.",
+          "Incorporate this meditation into your daily routine for the best results.",
+          "If you find it difficult at first, be patient with yourself. It takes time to develop a meditation practice."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Schedule worry time",
+    "content": [
+      {
+        "id": 0,
+        "component": "Paragraph",
+        "text": "Scheduling worry time is a technique to manage anxiety by setting aside a specific 15-30 minute period each day exclusively for worrying. This helps prevent worries from overwhelming daily life by compartmentalizing them into a dedicated time, allowing you to focus on other activities without constant rumination. Here's how it works:"
+      },
+      {
+        "id": 1,
+        "component": "Heading",
+        "text": "Designate a Worry Time:"
+      },
+      {
+        "id": 2,
+        "component": "Paragraph",
+        "text": "Choose a consistent time and place for your worry session, ideally not too close to bedtime to avoid disturbing sleep."
+      },
+      {
+        "id": 3,
+        "component": "Heading",
+        "text": "Postpone Worries:"
+      },
+      {
+        "id": 4,
+        "component": "Paragraph",
+        "text": "When anxious thoughts arise during the day, acknowledge them but deliberately set them aside until your designated worry time. You can jot them down to ensure you remember to address them later."
+      },
+      {
+        "id": 5,
+        "component": "Heading",
+        "text": "Use the Worry Time Effectively:"
+      },
+      {
+        "id": 6,
+        "component": "Paragraph",
+        "text": "During your scheduled worry time, focus on the worries you’ve postponed. Reflect on them, problem-solve if necessary, or just allow yourself to feel the anxiety without trying to suppress it."
+      },
+      {
+        "id": 7,
+        "component": "Heading",
+        "text": "End the Session:"
+      },
+      {
+        "id": 8,
+        "component": "Paragraph",
+        "text": "Once the time is up, consciously stop worrying and return to your daily activities. Remind yourself that you'll have time tomorrow to worry again if needed."
+      },
+      {
+        "id": 9,
+        "component": "Paragraph",
+        "text": "This technique helps reduce constant rumination, frees up mental space during the day, and can lead to less overall anxiety as many worries may seem less significant when revisited later."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Guided meditation",
+    "content": [
+      {
+        "id": 0,
+        "component": "Paragraph",
+        "text": "Scheduling worry time is a technique to manage anxiety by setting aside a specific 15-30 minute period each day exclusively for worrying. This helps prevent worries from overwhelming daily life by compartmentalizing them into a dedicated time, allowing you to focus on other activities without constant rumination. Here's how it works:"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sound bath",
+    "content": [
+      {
+        "id": 0,
+        "component": "Paragraph",
+        "text": "Scheduling worry time is a technique to manage anxiety by setting aside a specific 15-30 minute period each day exclusively for worrying. This helps prevent worries from overwhelming daily life by compartmentalizing them into a dedicated time, allowing you to focus on other activities without constant rumination. Here's how it works:"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Grounding exersise",
+    "content": [
+      {
+        "id": 0,
+        "component": "Paragraph",
+        "text": "A powerful technique to help ease anxiety and bring you back to the present moment is the 5-4-3-2-1 grounding exercise."
+      },
+      {
+        "id": 1,
+        "component": "Heading",
+        "text": "When you feel anxious, pause and focus on:"
+      },
+      {
+        "id": 2,
+        "component": "List",
+        "items": [
+          "5 things you can see around you",
+          "4 things you can touch or feel",
+          "3 distinct sounds you can hear",
+          "2 scents you can smell",
+          "1 thing you can taste"
+        ]
+      },
+      {
+        "id": 3,
+        "component": "Paragraph",
+        "text": "This exercise helps calm your mind and body by anchoring you in your surroundings, providing a sense of stability and reducing anxious thoughts."
+      }
+    ]
+  }
+]

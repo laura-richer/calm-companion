@@ -17,6 +17,7 @@
 		7699B88040F8A987B510C191 /* libPods-CalmCompanion-CalmCompanionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CalmCompanion-CalmCompanionTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		EC2123A8EB03401A8F654931 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40E39691339E4710A6FB4BCA /* Poppins-Medium.ttf */; };
+		D245DCD92AF941999C6DBC66 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E2344D8F03C402AA0E508F8 /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BC105122191349A6A63F9266 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		BF4A30BEC698ECE24B42BB02 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = CalmCompanion/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3E2344D8F03C402AA0E508F8 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				BC105122191349A6A63F9266 /* Poppins-Bold.ttf */,
 				40E39691339E4710A6FB4BCA /* Poppins-Medium.ttf */,
+				3E2344D8F03C402AA0E508F8 /* Poppins-SemiBold.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -266,6 +269,7 @@
 				0C6ED87AB4B804B9BB10F431 /* PrivacyInfo.xcprivacy in Resources */,
 				2B29BFA55D8E42978D252CFD /* Poppins-Bold.ttf in Resources */,
 				EC2123A8EB03401A8F654931 /* Poppins-Medium.ttf in Resources */,
+				D245DCD92AF941999C6DBC66 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

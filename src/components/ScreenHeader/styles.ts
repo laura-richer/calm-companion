@@ -3,11 +3,22 @@ import { colors, spacer } from '~styles/variables';
 
 export default StyleSheet.create({
   container: {
-    padding: spacer.SM,
+    padding: spacer.XS,
+  },
+  containerFlushToBottom: {
+    paddingBottom: 0,
   },
   title: {
-    textAlign: 'right',
     color: colors.WHITE,
-    marginBottom: 80,
+    marginBottom: spacer.XS,
+  },
+  imageContainer: {
+    alignItems: 'flex-end',
+  },
+  image: {
+    opacity: 0.1,
+  },
+  imageFlushToBottom: {
+    marginTop: spacer.XS,
   },
 });

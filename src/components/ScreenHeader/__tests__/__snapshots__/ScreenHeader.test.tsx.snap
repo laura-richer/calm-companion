@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screen header matches snapshot 1`] = `
+<BVLinearGradient
+  angle={170}
+  angleCenter={
+    {
+      "x": 0.75,
+      "y": 0.75,
+    }
+  }
+  colors={
+    [
+      4282350466,
+      4287349689,
+    ]
+  }
+  endPoint={
+    {
+      "x": 0.5,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    {
+      "x": 0.5,
+      "y": 0,
+    }
+  }
+  useAngle={true}
+>
+  <View
+    style={
+      [
+        {
+          "padding": 10,
+        },
+        null,
+      ]
+    }
+    testID="screenHeaderContainer"
+  >
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Poppins-Bold",
+            "fontSize": 36,
+          },
+          {
+            "color": "#ffffff",
+            "marginBottom": 10,
+          },
+        ]
+      }
+    >
+      Quick Help
+    </Text>
+    <View
+      style={
+        {
+          "alignItems": "flex-end",
+        }
+      }
+    >
+      <Image
+        accessibilityLabel="Quick Help image"
+        height={75}
+        resizeMode="contain"
+        source={
+          {
+            "testUri": "../../../src/assets/images/screenHeaders/quick-help.png",
+          }
+        }
+        style={
+          [
+            {
+              "opacity": 0.1,
+            },
+            null,
+          ]
+        }
+        width={117}
+      />
+    </View>
+  </View>
+</BVLinearGradient>
+`;

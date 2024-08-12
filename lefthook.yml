@@ -5,5 +5,5 @@ pre-commit:
       run: yarn lint
     # typecheck:
     #   run: yarn typecheck
-    # test:
-    #   run: yarn test --passWithNoTests
+    test:
+      run: yarn test

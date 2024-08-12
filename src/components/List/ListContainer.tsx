@@ -1,18 +1,25 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import ListItem from './ListItem';
-import { type ListItemType } from '~components/List/types';
+import styles from './styles';
+import { ListContainerProps } from './types';
+import { ListItemType } from '~types/list';
 
-interface ListContainerProps {
-  listItems: ListItemType[];
-  handleListItemClick: any;
-}
-
-const ListContainer = ({ listItems, handleListItemClick }: ListContainerProps) => {
+const ListContainer = ({
+  listItems,
+  handleItemClick,
+  handleHintClick,
+  accessabilityLabel,
+}: ListContainerProps) => {
   return (
-    <View>
+    <View style={styles.listContainer} accessibilityLabel={accessabilityLabel}>
       {listItems.map((listItem: ListItemType) => (
-        <ListItem key={listItem.id} item={listItem} handleListItemClick={handleListItemClick} />
+        <ListItem
+          key={listItem.id}
+          item={listItem}
+          handleItemClick={handleItemClick}
+          handleHintClick={handleHintClick}
+        />
       ))}
     </View>
   );

@@ -1,13 +1,16 @@
 import React from 'react';
-import { Provider } from 'react-redux';
+import { Provider as StoreProvider } from 'react-redux';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import store from '~store/index';
-import AppNavigationContainer from '~components/Navigation/AppNavigationContainer';
+import StackNavigationContainer from '~components/Navigation/NavigationContainers/StackNavigationContainer';
 
 function App(): React.JSX.Element {
   return (
-    <Provider store={store}>
-      <AppNavigationContainer />
-    </Provider>
+    <StoreProvider store={store}>
+      <SafeAreaProvider>
+        <StackNavigationContainer />
+      </SafeAreaProvider>
+    </StoreProvider>
   );
 }
 

@@ -1,0 +1,2112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabNavigationContainer matches snapshot 1`] = `
+[
+  <RNSScreenNavigationContainer
+    style={
+      {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <RNSScreen
+      activityState={2}
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      onGestureCancel={[Function]}
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "zIndex": 0,
+        }
+      }
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          [
+            {
+              "backgroundColor": "rgb(242, 242, 242)",
+              "flex": 1,
+            },
+            [
+              {
+                "flex": 1,
+                "flexDirection": "column-reverse",
+              },
+              {
+                "backgroundColor": "#ffffff",
+              },
+            ],
+          ]
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        >
+          <View>
+            <BVLinearGradient
+              angle={170}
+              angleCenter={
+                {
+                  "x": 0.75,
+                  "y": 0.75,
+                }
+              }
+              colors={
+                [
+                  4282350466,
+                  4287349689,
+                ]
+              }
+              endPoint={
+                {
+                  "x": 0.5,
+                  "y": 1,
+                }
+              }
+              locations={null}
+              startPoint={
+                {
+                  "x": 0.5,
+                  "y": 0,
+                }
+              }
+              useAngle={true}
+            >
+              <View
+                style={
+                  [
+                    {
+                      "padding": 10,
+                    },
+                    null,
+                  ]
+                }
+                testID="screenHeaderContainer"
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "fontFamily": "Poppins-Bold",
+                        "fontSize": 36,
+                      },
+                      {
+                        "color": "#ffffff",
+                        "marginBottom": 10,
+                      },
+                    ]
+                  }
+                >
+                  Quick Help
+                </Text>
+                <View
+                  style={
+                    {
+                      "alignItems": "flex-end",
+                    }
+                  }
+                >
+                  <Image
+                    accessibilityLabel="Quick Help image"
+                    height={75}
+                    resizeMode="contain"
+                    source={
+                      {
+                        "testUri": "../../../src/assets/images/screenHeaders/quick-help.png",
+                      }
+                    }
+                    style={
+                      [
+                        {
+                          "opacity": 0.1,
+                        },
+                        null,
+                      ]
+                    }
+                    width={117}
+                  />
+                </View>
+              </View>
+            </BVLinearGradient>
+            <RCTScrollView
+              style={
+                {
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 30,
+                }
+              }
+            >
+              <View>
+                <View
+                  style={
+                    {
+                      "paddingBottom": 210,
+                    }
+                  }
+                >
+                  <View
+                    accessibilityLabel="Quick help items"
+                    style={
+                      {
+                        "display": "flex",
+                        "gap": 20,
+                      }
+                    }
+                  >
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle 5x5 Breathing done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="5x5 Breathing is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            5x5 Breathing
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityLabel="Find out more about 5x5 Breathing"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                        >
+                          <Text
+                            style={
+                              {
+                                "color": "#3c433e",
+                                "fontFamily": "Poppins-Medium",
+                                "fontSize": 10,
+                                "marginLeft": "auto",
+                                "textDecorationLine": "underline",
+                              }
+                            }
+                          >
+                            Whats this?
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Take a bath done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Take a bath is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Take a bath
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Exersise done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Exersise is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Exersise
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Write a todo list done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Write a todo list is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Write a todo list
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Schedule worry time done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Schedule worry time is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Schedule worry time
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityLabel="Find out more about Schedule worry time"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                        >
+                          <Text
+                            style={
+                              {
+                                "color": "#3c433e",
+                                "fontFamily": "Poppins-Medium",
+                                "fontSize": 10,
+                                "marginLeft": "auto",
+                                "textDecorationLine": "underline",
+                              }
+                            }
+                          >
+                            Whats this?
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Guided meditation done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Guided meditation is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Guided meditation
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityLabel="Find out more about Guided meditation"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                        >
+                          <Text
+                            style={
+                              {
+                                "color": "#3c433e",
+                                "fontFamily": "Poppins-Medium",
+                                "fontSize": 10,
+                                "marginLeft": "auto",
+                                "textDecorationLine": "underline",
+                              }
+                            }
+                          >
+                            Whats this?
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Sound bath done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Sound bath is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Sound bath
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityLabel="Find out more about Sound bath"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                        >
+                          <Text
+                            style={
+                              {
+                                "color": "#3c433e",
+                                "fontFamily": "Poppins-Medium",
+                                "fontSize": 10,
+                                "marginLeft": "auto",
+                                "textDecorationLine": "underline",
+                              }
+                            }
+                          >
+                            Whats this?
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                    <View
+                      style={
+                        [
+                          {
+                            "shadowColor": "#8b8490",
+                            "shadowOffset": {
+                              "height": 2,
+                              "width": 0,
+                            },
+                            "shadowOpacity": 0.25,
+                            "shadowRadius": 8,
+                          },
+                          {
+                            "backgroundColor": "#ffffff",
+                            "borderRadius": 8,
+                          },
+                        ]
+                      }
+                    >
+                      <BVLinearGradient
+                        angle={170}
+                        angleCenter={
+                          {
+                            "x": 0.75,
+                            "y": 0.75,
+                          }
+                        }
+                        colors={
+                          [
+                            4294967295,
+                            4294967295,
+                          ]
+                        }
+                        endPoint={
+                          {
+                            "x": 0.5,
+                            "y": 1,
+                          }
+                        }
+                        locations={null}
+                        startPoint={
+                          {
+                            "x": 0.5,
+                            "y": 0,
+                          }
+                        }
+                        style={
+                          {
+                            "alignItems": "center",
+                            "borderRadius": 8,
+                            "display": "flex",
+                            "flexDirection": "row",
+                            "gap": 10,
+                            "paddingHorizontal": 20,
+                            "paddingVertical": 10,
+                          }
+                        }
+                        useAngle={true}
+                      >
+                        <View
+                          accessibilityHint="Tap to mark as done"
+                          accessibilityLabel="Toggle Grounding exersise done state"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          role="button"
+                          style={
+                            {
+                              "alignItems": "center",
+                              "display": "flex",
+                              "flex": 1,
+                              "flexDirection": "row",
+                              "gap": 10,
+                            }
+                          }
+                        >
+                          <View
+                            accessibilityLabel="Grounding exersise is not done"
+                            style={
+                              {
+                                "borderColor": "#3f7b82",
+                                "borderRadius": 50,
+                                "borderWidth": 2,
+                                "height": 25,
+                                "width": 25,
+                              }
+                            }
+                          />
+                          <Text
+                            style={
+                              [
+                                {
+                                  "color": "#3f7b82",
+                                },
+                                {
+                                  "fontFamily": "Poppins-Bold",
+                                  "fontSize": 14,
+                                },
+                                null,
+                              ]
+                            }
+                          >
+                            Grounding exersise
+                          </Text>
+                        </View>
+                        <View
+                          accessibilityLabel="Find out more about Grounding exersise"
+                          accessibilityState={
+                            {
+                              "busy": undefined,
+                              "checked": undefined,
+                              "disabled": undefined,
+                              "expanded": undefined,
+                              "selected": undefined,
+                            }
+                          }
+                          accessibilityValue={
+                            {
+                              "max": undefined,
+                              "min": undefined,
+                              "now": undefined,
+                              "text": undefined,
+                            }
+                          }
+                          accessible={true}
+                          collapsable={false}
+                          focusable={true}
+                          onBlur={[Function]}
+                          onClick={[Function]}
+                          onFocus={[Function]}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                        >
+                          <Text
+                            style={
+                              {
+                                "color": "#3c433e",
+                                "fontFamily": "Poppins-Medium",
+                                "fontSize": 10,
+                                "marginLeft": "auto",
+                                "textDecorationLine": "underline",
+                              }
+                            }
+                          >
+                            Whats this?
+                          </Text>
+                        </View>
+                      </BVLinearGradient>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+      </View>
+    </RNSScreen>
+  </RNSScreenNavigationContainer>,
+  <View
+    collapsable={false}
+    onLayout={[Function]}
+    pointerEvents="auto"
+    style={
+      {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "borderTopColor": "#f7f7f7",
+        "borderTopWidth": 0.5,
+        "bottom": 0,
+        "elevation": 8,
+        "height": 49,
+        "left": 0,
+        "paddingBottom": 0,
+        "paddingHorizontal": 0,
+        "position": null,
+        "right": 0,
+        "transform": [
+          {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+    <View
+      accessibilityRole="tablist"
+      style={
+        {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Tab navigation items"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": true,
+          }
+        }
+        accessibilityStates={
+          [
+            "selected",
+          ]
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flex": 1,
+            },
+            {
+              "backgroundColor": "#f7f7f7",
+            },
+            {
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 1,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/quick-help.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 0,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/quick-help.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </View>
+        <Text
+          accessibilityLabel="Quick Help"
+          style={
+            {
+              "color": "#3c433e",
+              "fontFamily": "Poppins-SemiBold",
+              "fontSize": 8,
+              "lineHeight": 10,
+              "paddingBottom": 2,
+              "paddingHorizontal": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Quick Help
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="Tab navigation items"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": false,
+          }
+        }
+        accessibilityStates={[]}
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flex": 1,
+            },
+            {
+              "backgroundColor": "transparent",
+            },
+            {
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 0,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/anxiety-resources.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 1,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/anxiety-resources.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </View>
+        <Text
+          accessibilityLabel="Anxiety Resources"
+          style={
+            {
+              "color": "#3c433e",
+              "fontFamily": "Poppins-SemiBold",
+              "fontSize": 8,
+              "lineHeight": 10,
+              "paddingBottom": 2,
+              "paddingHorizontal": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Anxiety Resources
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="Tab navigation items"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": false,
+          }
+        }
+        accessibilityStates={[]}
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flex": 1,
+            },
+            {
+              "backgroundColor": "transparent",
+            },
+            {
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 0,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/cbt-tools.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 1,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/cbt-tools.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </View>
+        <Text
+          accessibilityLabel="CBT Tools"
+          style={
+            {
+              "color": "#3c433e",
+              "fontFamily": "Poppins-SemiBold",
+              "fontSize": 8,
+              "lineHeight": 10,
+              "paddingBottom": 2,
+              "paddingHorizontal": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          CBT Tools
+        </Text>
+      </View>
+      <View
+        accessibilityLabel="Tab navigation items"
+        accessibilityRole="button"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": false,
+          }
+        }
+        accessibilityStates={[]}
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flex": 1,
+            },
+            {
+              "backgroundColor": "transparent",
+            },
+            {
+              "flexDirection": "column",
+              "justifyContent": "flex-end",
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 0,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/helpful-contacts.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "minWidth": 25,
+                  "position": "absolute",
+                  "width": "100%",
+                },
+                {
+                  "opacity": 1,
+                },
+              ]
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../src/assets/images/tabIcons/helpful-contacts.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "resizeMode": "contain",
+                  "width": 30,
+                }
+              }
+            />
+          </View>
+        </View>
+        <Text
+          accessibilityLabel="Helpful Contacts"
+          style={
+            {
+              "color": "#3c433e",
+              "fontFamily": "Poppins-SemiBold",
+              "fontSize": 8,
+              "lineHeight": 10,
+              "paddingBottom": 2,
+              "paddingHorizontal": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Helpful Contacts
+        </Text>
+      </View>
+    </View>
+  </View>,
+]
+`;

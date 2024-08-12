@@ -3,6 +3,10 @@ import navigationSlice from './slices/navigation';
 import quickHelpSlice from './slices/quickHelp';
 
 const store = configureStore({
+  middleware: getDefaultMiddleware =>
+    getDefaultMiddleware({
+      serializableCheck: false,
+    }),
   reducer: {
     navigation: navigationSlice,
     quickHelp: quickHelpSlice,

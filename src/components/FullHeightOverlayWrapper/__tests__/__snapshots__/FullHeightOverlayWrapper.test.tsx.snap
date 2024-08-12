@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`full height overlay matches snapshot 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[MockFunction]}
+  visible={true}
+>
+  <View
+    style={
+      {
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "marginBottom": 30,
+          "marginTop": 10,
+        }
+      }
+    >
+      <View
+        accessibilityLabel="Navigate back to previous screen"
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "position": "absolute",
+            "zIndex": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            {
+              "testUri": "../../../src/assets/images/back-button-dark.png",
+            }
+          }
+          style={
+            {
+              "height": 25,
+              "width": 30,
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "Poppins-Bold",
+              "fontSize": 14,
+            },
+            {
+              "marginHorizontal": "auto",
+              "maxWidth": "80%",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Full height modal
+      </Text>
+    </View>
+    <View>
+      <Text>
+        Child content
+      </Text>
+    </View>
+  </View>
+</Modal>
+`;

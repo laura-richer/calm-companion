@@ -1,39 +1,38 @@
-// import QuickHelpStack from '~components/Navigation/Stacks/QuickHelpStack';
-// import AnxietyResourcesStack from '~components/Navigation/Stacks/AnxietyResourcesStack';
-// import CbtToolsStack from '~components/Navigation/Stacks/CbtToolsStack.tsx';
-// import HelpfulContactsStack from '~components/Navigation/Stacks/HelpfulContactsStack.tsx';
-
-import QuickHelp from '~screens/QuickHelp';
+import QuickHelp from '~screens/QuickHelp/QuickHelp';
 import AnxietyResources from '~screens/AnxietyResources';
-import CbtTools from '~screens/CbtTools.tsx';
-import HelpfulContacts from '~screens/HelpfulContacts.tsx';
+import CbtTools from '~screens/CbtTools';
+import HelpfulContacts from '~screens/HelpfulContacts';
 
-import { type NavigationItemType } from '~components/Navigation/types.ts';
+import { NavigationItemType } from '~types/navigation';
 
 const navigationItems: NavigationItemType[] = [
   {
     id: 'QuickHelp',
     component: QuickHelp,
     title: 'Quick Help',
-    icon: 'Smile',
+    tabIcon: require('~assets/images/tabIcons/quick-help.png'),
+    cardIcon: require('~assets/images/screenHeaders/quick-help.png'),
   },
   {
     id: 'AnxietyResources',
     component: AnxietyResources,
     title: 'Anxiety Resources',
-    icon: 'Drop',
+    tabIcon: require('~assets/images/tabIcons/anxiety-resources.png'),
+    cardIcon: require('~assets/images/screenHeaders/anxiety-resources.png'),
   },
   {
     id: 'CbtTools',
     component: CbtTools,
     title: 'CBT Tools',
-    icon: 'Mountain',
+    tabIcon: require('~assets/images/tabIcons/cbt-tools.png'),
+    cardIcon: require('~assets/images/screenHeaders/cbt-tools.png'),
   },
   {
     id: 'HelpfulContacts',
     component: HelpfulContacts,
     title: 'Helpful Contacts',
-    icon: 'Tree',
+    tabIcon: require('~assets/images/tabIcons/helpful-contacts.png'),
+    cardIcon: require('~assets/images/screenHeaders/helpful-contacts.png'),
   },
 ];
 

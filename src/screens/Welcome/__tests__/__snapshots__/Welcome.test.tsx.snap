@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome screen matches snapshot 1`] = `
+<BVLinearGradient
+  angle={170}
+  angleCenter={
+    {
+      "x": 0.75,
+      "y": 0.75,
+    }
+  }
+  colors={
+    [
+      4282350466,
+      4287349689,
+    ]
+  }
+  endPoint={
+    {
+      "x": 0.5,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    {
+      "x": 0.5,
+      "y": 0,
+    }
+  }
+  style={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "space-around",
+      "paddingHorizontal": 20,
+      "paddingVertical": 30,
+    }
+  }
+  useAngle={true}
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "gap": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#ffffff",
+          },
+          {
+            "fontFamily": "Poppins-Bold",
+            "fontSize": 36,
+          },
+        ]
+      }
+    >
+      Calm Companion
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontFamily": "Poppins-Medium",
+          "fontSize": 18,
+        }
+      }
+    >
+      Supporting your path to peace.
+    </Text>
+  </View>
+  <Image
+    resizeMode="contain"
+    source={
+      {
+        "testUri": "../../../src/assets/images/calm-companion.png",
+      }
+    }
+    style={
+      {
+        "maxWidth": "75%",
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "gap": 30,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#ffffff",
+          "fontFamily": "Poppins-Medium",
+          "fontSize": 14,
+          "textAlign": "center",
+        }
+      }
+    >
+      Your handy reference of anxiety relief techniques and CBT tools to help you when your struggling.
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        [
+          {
+            "backgroundColor": "#ffffff",
+            "borderRadius": 50,
+            "color": "#3c433e",
+          },
+          {
+            "alignItems": "center",
+            "width": "100%",
+          },
+          {
+            "shadowColor": "#8b8490",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 8,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          {
+            "fontFamily": "Poppins-SemiBold",
+            "fontSize": 14,
+            "padding": 10,
+          }
+        }
+      >
+        Get Started
+      </Text>
+    </View>
+  </View>
+</BVLinearGradient>
+`;

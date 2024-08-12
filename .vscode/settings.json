@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+  },
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#3f7b82",
+    "activityBarBadge.foreground": "#fff",
+    "statusBar.background": "#3f7b82",
+    "statusBar.foreground": "#fff",
+    "titleBar.activeBackground": "#3f7b82",
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveBackground": "#3f7b82",
+    "titleBar.inactiveForeground": "#3f7b82"
+  },
+}

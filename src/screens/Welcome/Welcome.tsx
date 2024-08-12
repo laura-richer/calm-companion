@@ -1,15 +1,15 @@
 import React from 'react';
 import { Pressable, Text, Image, View } from 'react-native';
 import GradientDark from '~components/Gradient/GradientDark';
+import { WelcomeProps } from './types';
 import { buttonStyles, dropShadowStyles, typographyStyles } from '~styles/global';
 import styles from './styles';
-import { WelcomeProps } from './types';
 
 const Welcome = ({ navigation }: WelcomeProps) => {
   return (
     <GradientDark style={styles.wrapper}>
       <View style={styles.header}>
-        <Text style={[styles.title, typographyStyles.titleLg]}>Calm Companion</Text>
+        <Text style={[styles.title, typographyStyles.textLg]}>Calm Companion</Text>
         <Text style={styles.subtitle}>Supporting your path to peace.</Text>
       </View>
 

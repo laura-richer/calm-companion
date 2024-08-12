@@ -1,19 +1,26 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { type NavigationItemType } from '~components/Navigation/types.ts';
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { NavigationItemType } from '~types/navigation';
 import navigationItems from '~data/navigation';
 
 interface NavigationState {
   items: NavigationItemType[];
+  activeScreen?: string;
 }
 
-const initialState: NavigationState = {
+export const initialState: NavigationState = {
   items: navigationItems,
+  activeScreen: undefined,
 };
 
 const navigationSlice = createSlice({
   name: 'navigation',
   initialState,
-  reducers: {},
+  reducers: {
+    setActiveScreen: (state, action: PayloadAction<string>): void => {
+      state.activeScreen = action.payload;
+    },
+  },
 });
 
+export const { setActiveScreen } = navigationSlice.actions;
 export default navigationSlice.reducer;

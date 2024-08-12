@@ -25,6 +25,7 @@ module.exports = {
           '~screens': './src/screens',
           '~store': './src/store',
           '~styles': './src/styles',
+          '~types': './src/types',
           '~utils': './src/utils',
         },
         extensions: ['.js', '.jsx', '.tsx', '.ios.js', '.android.js'],

@@ -1,6 +1,14 @@
-export type ListItemType = {
-  id: number;
-  title: string;
-  slug: string;
-  done: boolean;
+import { ListItemType } from '~types/list';
+
+export type ListContainerProps = {
+  listItems: ListItemType[];
+  handleItemClick: any;
+  handleHintClick: any;
+  accessabilityLabel: string;
+};
+
+export type ListItemProps = {
+  item: ListItemType;
+  handleItemClick: any;
+  handleHintClick: any;
 };
