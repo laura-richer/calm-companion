@@ -13,7 +13,7 @@ const AnxietyResources = () => {
         imageHeight={75}
       />
       <ContentWrapper>
-        <Text>Anxiety Resources</Text>
+        <Text style={{ color: 'black' }}>Anxiety Resources</Text>
       </ContentWrapper>
     </View>
   );

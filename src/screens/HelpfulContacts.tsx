@@ -14,7 +14,7 @@ const HelpfulContacts = () => {
         imageFlushToBottom={true}
       />
       <ContentWrapper>
-        <Text>Helpful contacts</Text>
+        <Text style={{ color: 'black' }}>Helpful contacts</Text>
       </ContentWrapper>
     </View>
   );

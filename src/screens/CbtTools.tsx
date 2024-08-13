@@ -14,7 +14,7 @@ const CbtTools = () => {
         imageFlushToBottom={true}
       />
       <ContentWrapper>
-        <Text>CBT tools</Text>
+        <Text style={{ color: 'black' }}>CBT tools</Text>
       </ContentWrapper>
     </View>
   );
