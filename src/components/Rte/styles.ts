@@ -1,13 +1,15 @@
 import { StyleSheet } from 'react-native';
-import { spacer, lineHeight } from '~styles/variables';
+import { spacer, lineHeight, colors } from '~styles/variables';
 
 export default StyleSheet.create({
   heading: {
     marginBottom: spacer.XS,
+    color: colors.TWO,
   },
   body: {
     marginBottom: spacer.SM,
     lineHeight: lineHeight.default,
+    color: colors.ONE,
   },
   listItemWrapper: {
     flexDirection: 'row',
@@ -18,5 +20,6 @@ export default StyleSheet.create({
     marginLeft: spacer.XS,
     marginBottom: spacer.XS,
     lineHeight: lineHeight.default,
+    color: colors.ONE,
   },
 });

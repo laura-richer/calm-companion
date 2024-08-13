@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
-import { spacer } from '~styles/variables';
+import { spacer, colors } from '~styles/variables';
 
 export default StyleSheet.create({
   fullHeightOverlayHeader: {
     marginTop: spacer.XS,
-    marginBottom: spacer.MD,
+    marginBottom: spacer.SM,
   },
   backButton: {
     position: 'absolute',
@@ -14,5 +14,6 @@ export default StyleSheet.create({
     maxWidth: '80%',
     textAlign: 'center',
     marginHorizontal: 'auto',
+    color: colors.TWO,
   },
 });

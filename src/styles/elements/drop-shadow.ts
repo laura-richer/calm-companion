@@ -9,6 +9,6 @@ export default StyleSheet.create({
       height: 2,
     },
     shadowOpacity: 0.25,
-    shadowRadius: 8,
+    shadowRadius: 7,
   },
 });

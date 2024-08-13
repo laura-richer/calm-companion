@@ -8,6 +8,7 @@ import { QuickHelpOverlayProps } from './types';
 
 const QuickHelpOverlay = ({ show, onClose, itemId }: QuickHelpOverlayProps) => {
   const currentItem = useSelector((state: RootState) => selectItemById(state, itemId));
+  console.log(currentItem);
 
   return (
     <React.Fragment>

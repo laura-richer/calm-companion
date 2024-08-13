@@ -118,7 +118,7 @@ exports[`Welcome screen matches snapshot 1`] = `
               "width": 0,
             },
             "shadowOpacity": 0.25,
-            "shadowRadius": 8,
+            "shadowRadius": 7,
           },
           {
             "alignItems": "center",
