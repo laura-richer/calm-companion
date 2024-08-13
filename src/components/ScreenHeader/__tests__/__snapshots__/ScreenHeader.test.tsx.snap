@@ -46,7 +46,7 @@ exports[`screen header matches snapshot 1`] = `
         [
           {
             "fontFamily": "Poppins-Bold",
-            "fontSize": 36,
+            "fontSize": 34,
           },
           {
             "color": "#ffffff",

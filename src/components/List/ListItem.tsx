@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, Pressable, Image } from 'react-native';
+import DropShadow from 'react-native-drop-shadow';
 import { useSelector } from 'react-redux';
 import { RootState } from '~store/index';
 import { selectItemById } from '~store/slices/quickHelp';
@@ -12,7 +13,7 @@ const ListItem = ({ item, handleItemClick, handleHintClick }: ListItemProps) => 
   const itemContent = useSelector((state: RootState) => selectItemById(state, item.id));
 
   return (
-    <View style={[dropShadowStyles.default, styles.listItemWrapper]}>
+    <DropShadow style={[dropShadowStyles.default, styles.listItemWrapper]}>
       <GradientDark style={styles.listItem} disabled={!item.done}>
         <Pressable
           accessibilityLabel={`Toggle ${item.title} done state`}
@@ -54,7 +55,7 @@ const ListItem = ({ item, handleItemClick, handleHintClick }: ListItemProps) => 
           ) : null}
         </React.Fragment>
       </GradientDark>
-    </View>
+    </DropShadow>
   );
 };
 

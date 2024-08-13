@@ -7,8 +7,8 @@ const RteList = ({ content }: RteProps) => {
   return (
     <View style={styles.body}>
       {Array.isArray(content)
-        ? content.map(item => (
-            <View key={item} style={styles.listItemWrapper}>
+        ? content.map((item, index) => (
+            <View key={index} style={styles.listItemWrapper}>
               <Text>{'\u2022'}</Text>
               <Text style={[styles.listItemText]}>{item}</Text>
             </View>

@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { render, RenderOptions } from '@testing-library/react-native';
 import { Provider as StoreProvider } from 'react-redux';
 import { EnhancedStore, configureStore } from '@reduxjs/toolkit';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { RootState } from '~store/index';
 import navigationReducer, {
   initialState as navigationInitialState,
@@ -25,7 +26,9 @@ export const renderWithProviders = (
   const wrapper = ({ children }: PropsWithChildren<{}>): JSX.Element => {
     return (
       <StoreProvider store={store}>
-        <NavigationContainer>{children}</NavigationContainer>
+        <SafeAreaProvider>
+          <NavigationContainer>{children}</NavigationContainer>
+        </SafeAreaProvider>
       </StoreProvider>
     );
   };

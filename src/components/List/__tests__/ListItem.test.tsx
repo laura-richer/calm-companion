@@ -41,7 +41,9 @@ describe('list item', () => {
 
   test('renders item without check if item is not done', () => {
     const itemUnchecked = screen.getByLabelText('Item title is not done');
+    const itemCheckedImage = screen.queryByLabelText('Item title is done');
     expect(itemUnchecked).toBeOnTheScreen();
+    expect(itemCheckedImage).not.toBeOnTheScreen();
   });
 
   test('renders item with check if item is done', () => {
@@ -55,7 +57,9 @@ describe('list item', () => {
       />
     );
 
+    const itemUnchecked = screen.queryByLabelText('Item title is not done');
     const itemCheckedImage = screen.getByLabelText('Item title is done');
+    expect(itemUnchecked).not.toBeOnTheScreen();
     expect(itemCheckedImage).toBeOnTheScreen();
   });
 

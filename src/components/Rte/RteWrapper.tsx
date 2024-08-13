@@ -14,11 +14,11 @@ const RteWrapper = ({ content }: RteWrapperProps) => {
       {content.map((item, index) => {
         switch (item.component) {
           case 'Heading':
-            return <RteHeading content={item.text} />;
+            return <RteHeading key={index} content={item.text} />;
           case 'Paragraph':
-            return <RteParagraph content={item.text} />;
+            return <RteParagraph key={index} content={item.text} />;
           case 'List':
-            return <RteList content={item.items} />;
+            return <RteList key={index} content={item.items} />;
           // case 'image':
           //   return <RteImage key={index} src={item.src} alt={item.alt} />;
           // case 'video':

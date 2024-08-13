@@ -2,44 +2,8 @@
 
 exports[`Card item matches snapshot 1`] = `
 <View
-  accessibilityLabel="Quick Help"
-  accessibilityState={
-    {
-      "busy": undefined,
-      "checked": undefined,
-      "disabled": undefined,
-      "expanded": undefined,
-      "selected": undefined,
-    }
-  }
-  accessibilityValue={
-    {
-      "max": undefined,
-      "min": undefined,
-      "now": undefined,
-      "text": undefined,
-    }
-  }
-  accessible={true}
-  collapsable={false}
-  focusable={true}
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
   style={
     [
-      {
-        "borderRadius": 8,
-        "flexBasis": "47%",
-        "marginBottom": 20,
-        "padding": 10,
-      },
       {
         "shadowColor": "#8b8490",
         "shadowOffset": {
@@ -50,46 +14,91 @@ exports[`Card item matches snapshot 1`] = `
         "shadowRadius": 8,
       },
       {
-        "backgroundColor": "#ffffff",
+        "flexBasis": "47%",
+        "marginBottom": 20,
       },
     ]
   }
 >
-  <Text
+  <View
+    accessibilityLabel="Quick Help"
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       [
         {
-          "fontFamily": "Poppins-Bold",
-          "fontSize": 14,
+          "borderRadius": 8,
+          "padding": 10,
         },
         {
-          "color": "#3f7b82",
-          "maxWidth": 100,
+          "backgroundColor": "#ffffff",
         },
       ]
     }
   >
-    Quick
-    
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "Poppins-Bold",
+            "fontSize": 14,
+          },
+          {
+            "color": "#3f7b82",
+            "maxWidth": 100,
+          },
+        ]
+      }
+    >
+      Quick
+      
 
-    Help
-  </Text>
-  <Image
-    accessibilityHint="Icon"
-    alt="Quick Help icon"
-    resizeMode="contain"
-    source={
-      {
-        "testUri": "../../../src/assets/images/screenHeaders/quick-help.png",
+      Help
+    </Text>
+    <Image
+      accessibilityHint="Icon"
+      alt="Quick Help icon"
+      resizeMode="contain"
+      source={
+        {
+          "testUri": "../../../src/assets/images/screenHeaders/quick-help.png",
+        }
       }
-    }
-    style={
-      {
-        "marginLeft": "auto",
-        "maxWidth": 75,
-        "opacity": 0.25,
+      style={
+        {
+          "marginLeft": "auto",
+          "maxWidth": 75,
+          "opacity": 0.25,
+        }
       }
-    }
-  />
+    />
+  </View>
 </View>
 `;

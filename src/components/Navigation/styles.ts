@@ -25,6 +25,8 @@ export default StyleSheet.create({
   cardNavigationItem: {
     flexBasis: '47%',
     marginBottom: spacer.SM,
+  },
+  cardNavigationItemInner: {
     padding: spacer.XS,
     borderRadius: borderRadius.default,
   },

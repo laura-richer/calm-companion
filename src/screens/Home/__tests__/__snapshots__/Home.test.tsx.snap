@@ -49,7 +49,7 @@ exports[`Home screen matches snapshot 1`] = `
           [
             {
               "fontFamily": "Poppins-Bold",
-              "fontSize": 36,
+              "fontSize": 34,
             },
             {
               "color": "#ffffff",
@@ -91,19 +91,14 @@ exports[`Home screen matches snapshot 1`] = `
       </View>
     </View>
   </BVLinearGradient>
-  <RCTScrollView
-    style={
-      {
-        "paddingHorizontal": 10,
-        "paddingVertical": 30,
-      }
-    }
-  >
+  <RCTScrollView>
     <View>
       <View
         style={
           {
             "paddingBottom": 210,
+            "paddingHorizontal": 10,
+            "paddingVertical": 30,
           }
         }
       >
@@ -119,44 +114,8 @@ exports[`Home screen matches snapshot 1`] = `
           }
         >
           <View
-            accessibilityLabel="Quick Help"
-            accessibilityState={
-              {
-                "busy": undefined,
-                "checked": undefined,
-                "disabled": undefined,
-                "expanded": undefined,
-                "selected": undefined,
-              }
-            }
-            accessibilityValue={
-              {
-                "max": undefined,
-                "min": undefined,
-                "now": undefined,
-                "text": undefined,
-              }
-            }
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
             style={
               [
-                {
-                  "borderRadius": 8,
-                  "flexBasis": "47%",
-                  "marginBottom": 20,
-                  "padding": 10,
-                },
                 {
                   "shadowColor": "#8b8490",
                   "shadowOffset": {
@@ -167,87 +126,96 @@ exports[`Home screen matches snapshot 1`] = `
                   "shadowRadius": 8,
                 },
                 {
-                  "backgroundColor": "#ffffff",
+                  "flexBasis": "47%",
+                  "marginBottom": 20,
                 },
               ]
             }
           >
-            <Text
+            <View
+              accessibilityLabel="Quick Help"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
                 [
                   {
-                    "fontFamily": "Poppins-Bold",
-                    "fontSize": 14,
+                    "borderRadius": 8,
+                    "padding": 10,
                   },
                   {
-                    "color": "#3f7b82",
-                    "maxWidth": 100,
+                    "backgroundColor": "#ffffff",
                   },
                 ]
               }
             >
-              Quick
-              
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "Poppins-Bold",
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#3f7b82",
+                      "maxWidth": 100,
+                    },
+                  ]
+                }
+              >
+                Quick
+                
 
-              Help
-            </Text>
-            <Image
-              accessibilityHint="Icon"
-              alt="Quick Help icon"
-              resizeMode="contain"
-              source={
-                {
-                  "testUri": "../../../src/assets/images/screenHeaders/quick-help.png",
+                Help
+              </Text>
+              <Image
+                accessibilityHint="Icon"
+                alt="Quick Help icon"
+                resizeMode="contain"
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/screenHeaders/quick-help.png",
+                  }
                 }
-              }
-              style={
-                {
-                  "marginLeft": "auto",
-                  "maxWidth": 75,
-                  "opacity": 0.25,
+                style={
+                  {
+                    "marginLeft": "auto",
+                    "maxWidth": 75,
+                    "opacity": 0.25,
+                  }
                 }
-              }
-            />
+              />
+            </View>
           </View>
           <View
-            accessibilityLabel="Anxiety Resources"
-            accessibilityState={
-              {
-                "busy": undefined,
-                "checked": undefined,
-                "disabled": undefined,
-                "expanded": undefined,
-                "selected": undefined,
-              }
-            }
-            accessibilityValue={
-              {
-                "max": undefined,
-                "min": undefined,
-                "now": undefined,
-                "text": undefined,
-              }
-            }
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
             style={
               [
-                {
-                  "borderRadius": 8,
-                  "flexBasis": "47%",
-                  "marginBottom": 20,
-                  "padding": 10,
-                },
                 {
                   "shadowColor": "#8b8490",
                   "shadowOffset": {
@@ -258,87 +226,96 @@ exports[`Home screen matches snapshot 1`] = `
                   "shadowRadius": 8,
                 },
                 {
-                  "backgroundColor": "#ffffff",
+                  "flexBasis": "47%",
+                  "marginBottom": 20,
                 },
               ]
             }
           >
-            <Text
+            <View
+              accessibilityLabel="Anxiety Resources"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
                 [
                   {
-                    "fontFamily": "Poppins-Bold",
-                    "fontSize": 14,
+                    "borderRadius": 8,
+                    "padding": 10,
                   },
                   {
-                    "color": "#3f7b82",
-                    "maxWidth": 100,
+                    "backgroundColor": "#ffffff",
                   },
                 ]
               }
             >
-              Anxiety
-              
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "Poppins-Bold",
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#3f7b82",
+                      "maxWidth": 100,
+                    },
+                  ]
+                }
+              >
+                Anxiety
+                
 
-              Resources
-            </Text>
-            <Image
-              accessibilityHint="Icon"
-              alt="Anxiety Resources icon"
-              resizeMode="contain"
-              source={
-                {
-                  "testUri": "../../../src/assets/images/screenHeaders/anxiety-resources.png",
+                Resources
+              </Text>
+              <Image
+                accessibilityHint="Icon"
+                alt="Anxiety Resources icon"
+                resizeMode="contain"
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/screenHeaders/anxiety-resources.png",
+                  }
                 }
-              }
-              style={
-                {
-                  "marginLeft": "auto",
-                  "maxWidth": 75,
-                  "opacity": 0.25,
+                style={
+                  {
+                    "marginLeft": "auto",
+                    "maxWidth": 75,
+                    "opacity": 0.25,
+                  }
                 }
-              }
-            />
+              />
+            </View>
           </View>
           <View
-            accessibilityLabel="CBT Tools"
-            accessibilityState={
-              {
-                "busy": undefined,
-                "checked": undefined,
-                "disabled": undefined,
-                "expanded": undefined,
-                "selected": undefined,
-              }
-            }
-            accessibilityValue={
-              {
-                "max": undefined,
-                "min": undefined,
-                "now": undefined,
-                "text": undefined,
-              }
-            }
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
             style={
               [
-                {
-                  "borderRadius": 8,
-                  "flexBasis": "47%",
-                  "marginBottom": 20,
-                  "padding": 10,
-                },
                 {
                   "shadowColor": "#8b8490",
                   "shadowOffset": {
@@ -349,87 +326,96 @@ exports[`Home screen matches snapshot 1`] = `
                   "shadowRadius": 8,
                 },
                 {
-                  "backgroundColor": "#ffffff",
+                  "flexBasis": "47%",
+                  "marginBottom": 20,
                 },
               ]
             }
           >
-            <Text
+            <View
+              accessibilityLabel="CBT Tools"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
                 [
                   {
-                    "fontFamily": "Poppins-Bold",
-                    "fontSize": 14,
+                    "borderRadius": 8,
+                    "padding": 10,
                   },
                   {
-                    "color": "#3f7b82",
-                    "maxWidth": 100,
+                    "backgroundColor": "#ffffff",
                   },
                 ]
               }
             >
-              CBT
-              
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "Poppins-Bold",
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#3f7b82",
+                      "maxWidth": 100,
+                    },
+                  ]
+                }
+              >
+                CBT
+                
 
-              Tools
-            </Text>
-            <Image
-              accessibilityHint="Icon"
-              alt="CBT Tools icon"
-              resizeMode="contain"
-              source={
-                {
-                  "testUri": "../../../src/assets/images/screenHeaders/cbt-tools.png",
+                Tools
+              </Text>
+              <Image
+                accessibilityHint="Icon"
+                alt="CBT Tools icon"
+                resizeMode="contain"
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/screenHeaders/cbt-tools.png",
+                  }
                 }
-              }
-              style={
-                {
-                  "marginLeft": "auto",
-                  "maxWidth": 75,
-                  "opacity": 0.25,
+                style={
+                  {
+                    "marginLeft": "auto",
+                    "maxWidth": 75,
+                    "opacity": 0.25,
+                  }
                 }
-              }
-            />
+              />
+            </View>
           </View>
           <View
-            accessibilityLabel="Helpful Contacts"
-            accessibilityState={
-              {
-                "busy": undefined,
-                "checked": undefined,
-                "disabled": undefined,
-                "expanded": undefined,
-                "selected": undefined,
-              }
-            }
-            accessibilityValue={
-              {
-                "max": undefined,
-                "min": undefined,
-                "now": undefined,
-                "text": undefined,
-              }
-            }
-            accessible={true}
-            collapsable={false}
-            focusable={true}
-            onBlur={[Function]}
-            onClick={[Function]}
-            onFocus={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
             style={
               [
-                {
-                  "borderRadius": 8,
-                  "flexBasis": "47%",
-                  "marginBottom": 20,
-                  "padding": 10,
-                },
                 {
                   "shadowColor": "#8b8490",
                   "shadowOffset": {
@@ -440,47 +426,92 @@ exports[`Home screen matches snapshot 1`] = `
                   "shadowRadius": 8,
                 },
                 {
-                  "backgroundColor": "#ffffff",
+                  "flexBasis": "47%",
+                  "marginBottom": 20,
                 },
               ]
             }
           >
-            <Text
+            <View
+              accessibilityLabel="Helpful Contacts"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
               style={
                 [
                   {
-                    "fontFamily": "Poppins-Bold",
-                    "fontSize": 14,
+                    "borderRadius": 8,
+                    "padding": 10,
                   },
                   {
-                    "color": "#3f7b82",
-                    "maxWidth": 100,
+                    "backgroundColor": "#ffffff",
                   },
                 ]
               }
             >
-              Helpful
-              
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "Poppins-Bold",
+                      "fontSize": 14,
+                    },
+                    {
+                      "color": "#3f7b82",
+                      "maxWidth": 100,
+                    },
+                  ]
+                }
+              >
+                Helpful
+                
 
-              Contacts
-            </Text>
-            <Image
-              accessibilityHint="Icon"
-              alt="Helpful Contacts icon"
-              resizeMode="contain"
-              source={
-                {
-                  "testUri": "../../../src/assets/images/screenHeaders/helpful-contacts.png",
+                Contacts
+              </Text>
+              <Image
+                accessibilityHint="Icon"
+                alt="Helpful Contacts icon"
+                resizeMode="contain"
+                source={
+                  {
+                    "testUri": "../../../src/assets/images/screenHeaders/helpful-contacts.png",
+                  }
                 }
-              }
-              style={
-                {
-                  "marginLeft": "auto",
-                  "maxWidth": 75,
-                  "opacity": 0.25,
+                style={
+                  {
+                    "marginLeft": "auto",
+                    "maxWidth": 75,
+                    "opacity": 0.25,
+                  }
                 }
-              }
-            />
+              />
+            </View>
           </View>
         </View>
       </View>

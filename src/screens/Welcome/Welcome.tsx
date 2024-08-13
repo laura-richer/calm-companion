@@ -1,8 +1,9 @@
 import React from 'react';
-import { Pressable, Text, Image, View } from 'react-native';
+import { Text, Image, View } from 'react-native';
 import GradientDark from '~components/Gradient/GradientDark';
+import Button from '~components/Button/Button';
 import { WelcomeProps } from './types';
-import { buttonStyles, dropShadowStyles, typographyStyles } from '~styles/global';
+import { typographyStyles } from '~styles/global';
 import styles from './styles';
 
 const Welcome = ({ navigation }: WelcomeProps) => {
@@ -25,12 +26,7 @@ const Welcome = ({ navigation }: WelcomeProps) => {
           struggling.
         </Text>
 
-        <Pressable
-          onPress={() => navigation.navigate('Home')}
-          style={[buttonStyles.primary, buttonStyles.fullWidth, dropShadowStyles.default]}
-        >
-          <Text style={buttonStyles.primaryText}>Get Started</Text>
-        </Pressable>
+        <Button text="Get Started" handleButtonPress={() => navigation.navigate('Home')} />
       </View>
     </GradientDark>
   );

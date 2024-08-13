@@ -7,11 +7,11 @@ export default StyleSheet.create({
     alignItems: 'center',
   },
   primary: {
-    color: colors.ONE,
     backgroundColor: colors.WHITE,
     borderRadius: 50,
   },
   primaryText: {
+    color: colors.ONE,
     fontFamily: fontFamily.SEMIBOLD,
     fontSize: fontSize.MD,
     padding: spacer.XS,

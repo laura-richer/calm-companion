@@ -5,7 +5,7 @@ import styles from './styles';
 
 const ContentWrapper = ({ children }: ContentWrapperProps) => {
   return (
-    <ScrollView style={styles.contentWrapper}>
+    <ScrollView>
       <View style={styles.contentWrapperContainer}>{children}</View>
     </ScrollView>
   );

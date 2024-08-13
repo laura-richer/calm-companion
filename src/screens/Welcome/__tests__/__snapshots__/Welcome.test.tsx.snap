@@ -55,7 +55,7 @@ exports[`Welcome screen matches snapshot 1`] = `
           },
           {
             "fontFamily": "Poppins-Bold",
-            "fontSize": 36,
+            "fontSize": 34,
           },
         ]
       }
@@ -109,46 +109,8 @@ exports[`Welcome screen matches snapshot 1`] = `
       Your handy reference of anxiety relief techniques and CBT tools to help you when your struggling.
     </Text>
     <View
-      accessibilityState={
-        {
-          "busy": undefined,
-          "checked": undefined,
-          "disabled": undefined,
-          "expanded": undefined,
-          "selected": undefined,
-        }
-      }
-      accessibilityValue={
-        {
-          "max": undefined,
-          "min": undefined,
-          "now": undefined,
-          "text": undefined,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
       style={
         [
-          {
-            "backgroundColor": "#ffffff",
-            "borderRadius": 50,
-            "color": "#3c433e",
-          },
-          {
-            "alignItems": "center",
-            "width": "100%",
-          },
           {
             "shadowColor": "#8b8490",
             "shadowOffset": {
@@ -158,20 +120,69 @@ exports[`Welcome screen matches snapshot 1`] = `
             "shadowOpacity": 0.25,
             "shadowRadius": 8,
           },
+          {
+            "alignItems": "center",
+            "width": "100%",
+          },
         ]
       }
     >
-      <Text
-        style={
+      <View
+        accessibilityState={
           {
-            "fontFamily": "Poppins-SemiBold",
-            "fontSize": 14,
-            "padding": 10,
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
           }
         }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          [
+            {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 50,
+            },
+            {
+              "alignItems": "center",
+              "width": "100%",
+            },
+          ]
+        }
       >
-        Get Started
-      </Text>
+        <Text
+          style={
+            {
+              "color": "#3c433e",
+              "fontFamily": "Poppins-SemiBold",
+              "fontSize": 14,
+              "padding": 10,
+            }
+          }
+        >
+          Get Started
+        </Text>
+      </View>
     </View>
   </View>
 </BVLinearGradient>
