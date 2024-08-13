@@ -52,7 +52,7 @@ describe('screen header', () => {
 
   test('renders image with default margin', () => {
     const screenHeaderContainer = screen.getByTestId('screenHeaderContainer');
-    expect(screenHeaderContainer).toHaveStyle({ padding: spacer.XS });
+    expect(screenHeaderContainer).toHaveStyle({ padding: spacer.SM });
   });
 
   test('renders image flush to bottom', () => {

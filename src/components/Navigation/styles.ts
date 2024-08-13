@@ -24,10 +24,10 @@ export default StyleSheet.create({
   },
   cardNavigationItem: {
     flexBasis: '47%',
-    marginBottom: spacer.SM,
+    marginBottom: spacer.MD,
   },
   cardNavigationItemInner: {
-    padding: spacer.XS,
+    padding: spacer.SM,
     borderRadius: borderRadius.default,
   },
   cardNavigationItemText: {

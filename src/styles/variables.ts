@@ -10,10 +10,10 @@ export const colors = {
 };
 
 export const spacer = {
-  XS: 10,
-  SM: 20,
-  MD: 30,
-  LG: 50,
+  XS: 5,
+  SM: 10,
+  MD: 20,
+  LG: 30,
 };
 
 export const fontFamily = {

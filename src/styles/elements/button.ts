@@ -14,6 +14,6 @@ export default StyleSheet.create({
     color: colors.ONE,
     fontFamily: fontFamily.SEMIBOLD,
     fontSize: fontSize.MD,
-    padding: spacer.XS,
+    padding: spacer.SM,
   },
 });

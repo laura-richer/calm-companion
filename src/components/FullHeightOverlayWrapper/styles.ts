@@ -3,8 +3,8 @@ import { spacer, colors } from '~styles/variables';
 
 export default StyleSheet.create({
   fullHeightOverlayHeader: {
-    marginTop: spacer.XS,
-    marginBottom: spacer.SM,
+    marginTop: spacer.SM,
+    marginBottom: spacer.MD,
   },
   backButton: {
     position: 'absolute',

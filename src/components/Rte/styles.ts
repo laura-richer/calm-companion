@@ -7,18 +7,18 @@ export default StyleSheet.create({
     color: colors.TWO,
   },
   body: {
-    marginBottom: spacer.SM,
+    marginBottom: spacer.MD,
     lineHeight: lineHeight.default,
     color: colors.ONE,
   },
   listItemWrapper: {
     flexDirection: 'row',
-    gap: spacer.XS,
+    gap: spacer.SM,
   },
   listItemText: {
     flex: 1,
-    marginLeft: spacer.XS,
-    marginBottom: spacer.XS,
+    marginLeft: spacer.SM,
+    marginBottom: spacer.SM,
     lineHeight: lineHeight.default,
     color: colors.ONE,
   },

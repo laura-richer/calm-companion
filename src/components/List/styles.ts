@@ -4,7 +4,7 @@ import { colors, borderRadius, spacer, fontFamily, fontSize } from '~styles/vari
 export default StyleSheet.create({
   listContainer: {
     display: 'flex',
-    gap: spacer.SM,
+    gap: spacer.MD,
   },
   listItemWrapper: {
     backgroundColor: colors.WHITE,
@@ -14,9 +14,9 @@ export default StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacer.XS,
-    paddingHorizontal: spacer.SM,
-    paddingVertical: spacer.XS,
+    gap: spacer.SM,
+    paddingHorizontal: spacer.MD,
+    paddingVertical: spacer.SM,
     borderRadius: borderRadius.default,
   },
   listItemPressableArea: {
@@ -24,7 +24,7 @@ export default StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacer.XS,
+    gap: spacer.SM,
   },
   listItemIcon: {
     width: 25,
