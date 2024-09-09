@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View } from 'react-native';
+import { View, Text } from 'react-native';
 import { useAppSelector } from '~store/hooks';
 import { useDispatch } from 'react-redux';
 import { toggleDoneState } from '~store/slices/quickHelp';
@@ -7,10 +7,11 @@ import ScreenHeader from '~components/ScreenHeader/ScreenHeader';
 import ContentWrapper from '~components/ContentWrapper/ContentWrapper';
 import ListContainer from '~components/List/ListContainer';
 import QuickHelpOverlay from '~components/QuickHelpOverlay/QuickHelpOverlay';
+import styles from './styles';
 
 const QuickHelp = () => {
   const dispatch = useDispatch();
-  const quickHelpItems = useAppSelector(state => state.quickHelp.items);
+  const quickHelp = useAppSelector(state => state.quickHelp);
   const [itemToShow, setItemToShow] = useState<number | undefined>(undefined);
   const [showModal, setShowModal] = useState<boolean>(false);
 
@@ -31,18 +32,21 @@ const QuickHelp = () => {
   return (
     <View>
       <ScreenHeader
-        title={'Quick Help'}
-        image={require('~assets/images/screenHeaders/quick-help.png')}
+        title={quickHelp.title}
+        image={quickHelp.headerImage}
         imageWidth={117}
         imageHeight={75}
       />
       <ContentWrapper>
-        <ListContainer
-          listItems={quickHelpItems}
-          handleItemClick={itemToUpdate}
-          handleHintClick={showHintOverlay}
-          accessabilityLabel="Quick help items"
-        />
+        <View style={styles.contentWrapper}>
+          <Text>{quickHelp.description}</Text>
+          <ListContainer
+            listItems={quickHelp.items}
+            handleItemClick={itemToUpdate}
+            handleHintClick={showHintOverlay}
+            accessabilityLabel="Quick help items"
+          />
+        </View>
       </ContentWrapper>
 
       <QuickHelpOverlay show={showModal} onClose={hideHintOverlay} itemId={itemToShow} />

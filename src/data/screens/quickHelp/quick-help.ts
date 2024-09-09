@@ -54,6 +54,10 @@ const items: ListItemType[] = [
 
 const quickHelp: QuickHelpType = {
   id: 'QuickHelp',
+  title: 'Quick Help',
+  headerImage: require('~assets/images/screenHeaders/quick-help.png'),
+  description:
+    'Quick help collection of quick and easy techniques and things to do to help you feel better. Tick them off as you go each time you need some quick anxiety relief',
   items,
 };
 
